@@ -1,0 +1,87 @@
+/*general*/
+.center {
+    text-align: center;    
+}
+
+.blue {
+    background-color: #6495E3;
+    text-shadow: 1px 1px 1px grey;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+/*background*/
+#app {
+    background-image: url('../images/questionmark.jpg');
+    background-size: cover;
+    padding: 50px 0 150px 0;  
+}
+
+/*headers*/
+#headers {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #40444A;
+}
+
+/*input*/
+#input-parent {
+    position: relative;
+    width: 160px;
+    margin: 50px auto;
+}
+
+#number-input {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 35px 0;
+    font-size: 400%;
+    border: 4px inset;
+    border-radius: 50%;
+}
+
+#submit {
+    position: absolute;
+    top:110px;
+    left:110px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 15px 3px;
+}
+
+/*previous guesses*/
+#guess-list {
+    list-style: none;
+    padding: 0;
+}
+
+.guess {
+    display:inline;
+    margin: 10px 5px;
+    padding: 10px 25px;
+    font-size: 300%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: #40444A;
+    background-color: white;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+#menu-btns {
+    margin-top: 25px;
+}
+
+/*footer*/
+#footer {
+    width: 100%;
+    border-top: solid 2px grey;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100%;    
+}

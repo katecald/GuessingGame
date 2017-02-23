@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+
+  </head>
+  <body>
+
+      <div id='app'>
+
+        <div id='headers' class='center'>
+          <h1>GUESSING GAME</h1>
+          <h2>Guess a number between 1 & 100</h2>
+        </div>
+
+        <div id='main' class='center'>
+          <div id='input-parent'>
+            <input id='number-input' class= 'center' maxlength='3' placeholder='##' autofocus>
+            <button id='submit' class='blue'>Guess!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess'>--</li>
+              <li class='guess'>--</li>
+              <li class='guess'>--</li>
+              <li class='guess'>--</li>
+              <li class='guess'>--</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button id='reset' class='blue'>Reset</button>
+            <button id='hint' class='blue'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class = 'row'>
+          <div class='col-sm-4'>
+            <img src='images/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Kate Caldwell</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='images/grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+    <script src="js/GuessingGame.js"></script>
+  </body>
+</html>
